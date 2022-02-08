@@ -22,4 +22,5 @@ export const menu = [
     path: '/login',
     title: 'Login',
     component: Login,
-  },
+  }
+];
