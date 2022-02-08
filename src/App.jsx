@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
 import BarraNav from './components/BarraNav';
+import { menu } from './data/menu';
 
 export default function App() {
   return (
-    return (
+    <Router>
         <BarraNav/>
         {menu((item) => {
           return (
@@ -16,6 +17,6 @@ export default function App() {
             />
           );
         })}
-
+        </Router>
   );
 }
